@@ -9,7 +9,7 @@ import { Analytics } from "./components/analytics";
 import { SkipLink } from "./components/skipLink";
 
 // URL base
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://tu-dominio.com';
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://portfolio-self-one-37.vercel.app/';
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
