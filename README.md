@@ -40,10 +40,12 @@ portfolio/
 ✅ Schema markup para SEO
 📧 Contacto
 
-# Datos
+## Datos
+
 Email: rsaitor191@gmail.com
 GitHub: @aitor191
 LinkedIn: Aitor R
 
 ## Licencia
+
 Este proyecto es de código abierto y está disponible bajo la MIT License.
