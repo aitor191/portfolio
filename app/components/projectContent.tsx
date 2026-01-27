@@ -3,6 +3,15 @@
 import { useLanguage } from "../contexts/languageContext";
 import { PageIntro } from "./pageIntro";
 
+interface Project {
+  id: string;
+  title: string;
+  description: string;
+  tech: readonly string[];
+  github: string;
+  demo: string;
+}
+
 export function ProjectsContent() {
   const { t } = useLanguage();
 
@@ -15,33 +24,29 @@ export function ProjectsContent() {
       />
 
       <section className="projects-grid">
-        <div className="project-placeholder">
-          <div className="placeholder-icon">🚀</div>
-          <h3>{t.projects.comingSoon}</h3>
-          <p>
-            {t.projects.comingSoonDesc}
-          </p>
-        </div>
-
-        {/* Ejemplo de estructura para cuando añada proyectos:
-        <div className="project-card">
-          <div className="project-header">
-            <h3>Nombre del Proyecto</h3>
-            <div className="project-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">Demo</a>
-              <a href="#" target="_blank" rel="noopener noreferrer">GitHub</a>
+        {t.projects.list.map((project: Project) => (
+          <div key={project.id} className="project-card">
+            <div className="project-header">
+              <h3>{project.title}</h3>
+              <div className="project-links">
+                {project.demo && (
+                  <a href={project.demo} target="_blank" rel="noopener noreferrer">Demo</a>
+                )}
+                {project.github && (
+                  <a href={project.github} target="_blank" rel="noopener noreferrer">{t.projects.viewGithub}</a>
+                )}
+              </div>
+            </div>
+            <p className="project-description">
+              {project.description}
+            </p>
+            <div className="project-tech">
+              {project.tech.map((tech: string) => (
+                <span key={tech}>{tech}</span>
+              ))}
             </div>
           </div>
-          <p className="project-description">
-            Descripción del proyecto y qué problemas resuelve.
-          </p>
-          <div className="project-tech">
-            <span>React</span>
-            <span>Next.js</span>
-            <span>TypeScript</span>
-          </div>
-        </div>
-        */}
+        ))}
       </section>
     </>
   );

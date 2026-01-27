@@ -75,8 +75,17 @@ export const translations = {
     projects: {
       title: 'Proyectos',
       subtitle: 'Aquí encontrarás mis proyectos más destacados. Cada uno representa un aprendizaje y una oportunidad de aplicar nuevas tecnologías.',
-      comingSoon: 'Proyectos próximamente',
-      comingSoonDesc: 'Esta sección está preparada para mostrar proyectos reales. Se añadirán próximamente con su título, descripción, tecnologías utilizadas y enlaces a demo y repositorio en GitHub.',
+      viewGithub: 'GitHub',
+      list: [
+        {
+          id: 'traderbot',
+          title: 'TraderBot - Algorithmic Trading Platform',
+          description: 'Plataforma de trading algorítmico con backtesting, indicadores técnicos y conexión a Binance.',
+          tech: ['Python', 'FastAPI', 'Next.js', 'TypeScript', 'PostgreSQL', 'Docker'],
+          github: 'https://github.com/aitor191/TraderBot',
+          demo: '',
+        },
+      ],
     },
     footer: {
       rights: 'Todos los derechos reservados.',
@@ -172,8 +181,17 @@ export const translations = {
     projects: {
       title: 'Projects',
       subtitle: 'Here you will find my most outstanding projects. Each one represents a learning opportunity and a chance to apply new technologies.',
-      comingSoon: 'Projects coming soon',
-      comingSoonDesc: 'This section is prepared to showcase real projects. They will be added soon with their title, description, technologies used, and links to demo and GitHub repository.',
+      viewGithub: 'GitHub',
+      list: [
+        {
+          id: 'traderbot',
+          title: 'TraderBot - Algorithmic Trading Platform',
+          description: 'Algorithmic trading platform with backtesting, technical indicators and Binance connection.',
+          tech: ['Python', 'FastAPI', 'Next.js', 'TypeScript', 'PostgreSQL', 'Docker'],
+          github: 'https://github.com/aitor191/TraderBot',
+          demo: '',
+        },
+      ],
     },
     footer: {
       rights: 'All rights reserved.',
