@@ -10,6 +10,7 @@ interface Project {
   tech: readonly string[];
   github: string;
   demo: string;
+  badge: string;
 }
 
 export function ProjectsContent() {
@@ -25,7 +26,10 @@ export function ProjectsContent() {
 
       <section className="projects-grid">
         {t.projects.list.map((project: Project) => (
-          <div key={project.id} className="project-card">
+          <div key={project.id} className={`project-card ${project.badge ? 'project-featured' : ''}`}>
+            {project.badge && (
+              <span className="project-badge">{project.badge}</span>
+            )}
             <div className="project-header">
               <h3>{project.title}</h3>
               <div className="project-links">
