@@ -4,7 +4,7 @@ Portfolio profesional de un desarrollador web fullstack junior.
 
 ## 🌐 Demo en vivo
 
-[Ver portfolio en vivo](https://tu-portfolio.vercel.app) <!-- Añade la URL cuando despliegues en Vercel -->
+[Ver portfolio en vivo](https://portfolio-self-one-37.vercel.app/) 
 
 ## 🚀 Stack Tecnológico
 
@@ -15,6 +15,7 @@ Portfolio profesional de un desarrollador web fullstack junior.
 
 ## 📁 Estructura del proyecto
 
+```
 portfolio/
 ├── app/
 │ ├── page.tsx # Página principal
@@ -27,6 +28,7 @@ portfolio/
 │ ├── hooks/ # Custom hooks
 │ └── i18n/ # Internacionalización
 └── public/ # Assets estáticos
+```
 
 ## Características
 ✅ Diseño minimalista y responsive
@@ -43,8 +45,8 @@ portfolio/
 ## Datos
 
 Email: rsaitor191@gmail.com
-GitHub: @aitor191
-LinkedIn: Aitor R
+GitHub: https://github.com/aitor191
+LinkedIn: Aitor Rodríguez Suarez - https://www.linkedin.com/in/aitor-r-628504236/
 
 ## Licencia
 
