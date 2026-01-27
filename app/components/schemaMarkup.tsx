@@ -1,5 +1,5 @@
 export function SchemaMarkup() {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://portfolio-self-one-37.vercel.app/';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://aitordev.vercel.app/';
   
   const personSchema = {
     "@context": "https://schema.org",
