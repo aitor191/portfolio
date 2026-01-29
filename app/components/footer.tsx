@@ -7,7 +7,7 @@ import { FaLinkedin, FaGithub, FaFileDownload } from 'react-icons/fa';
 const SOCIAL_LINKS = {
   linkedin: 'https://linkedin.com/in/aitor-r-628504236/',
   github: 'https://github.com/aitor191',
-  cvUrl: '/cv.pdf',
+  cvUrl: '/CVAitorENG.pdf',
 };
 
 export function Footer() {
