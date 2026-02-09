@@ -3,7 +3,8 @@
 import { useLanguage } from "../contexts/languageContext";
 import { PageIntro } from "./pageIntro";
 
-const COMPANY_NAME = 'HOPP';
+const COMPANY_HOPP = 'HOPP';
+const COMPANY_KOPAR = 'KOPAR';
 
 export function AboutContent() {
   const { t } = useLanguage();
@@ -22,7 +23,7 @@ export function AboutContent() {
           <p>{t.about.story1}</p>
           <p>{t.about.story2}</p>
           <p>
-            {t.about.story3} <strong>{COMPANY_NAME}</strong>, {t.about.story3Part2}
+            {t.about.story3} <strong>{COMPANY_KOPAR}</strong> {t.about.story3Middle} <strong>{COMPANY_HOPP}</strong>, {t.about.story3Part2}
           </p>
           <p>{t.about.story4}</p>
           <p>{t.about.story5}</p>
