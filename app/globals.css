@@ -1275,17 +1275,21 @@ footer p {
 
 .project-links a {
   font-size: 0.875rem;
-  padding: 0.25rem 0.75rem;
-  border-radius: 4px;
-  background-color: var(--color-bg-secondary);
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  background-color: transparent;
   color: var(--color-accent);
+  border: 1.5px solid var(--color-accent);
   text-decoration: none;
+  font-weight: 500;
   transition: var(--transition);
 }
 
 .project-links a:hover {
   background-color: var(--color-accent);
   color: white;
+  text-decoration: none;
+  transform: translateY(-1px);
 }
 
 .project-description {

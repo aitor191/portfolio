@@ -75,12 +75,12 @@ export const translations = {
     projects: {
       title: 'Proyectos',
       subtitle: 'Aquí encontrarás mis proyectos más destacados. Cada uno representa un aprendizaje y una oportunidad de aplicar nuevas tecnologías.',
-      viewGithub: 'GitHub',
+      viewGithub: 'Ver en GitHub',
       list: [
         {
           id: 'sniphub',
           title: 'SnipHub - Gestor de snippets con integración de IA',
-          description: 'Plataforma para crear, editar, borrar y compartir fragmentos de código (snippets) además de integrar IA para generar explicaciones.',
+          description: 'Gestionar y reutilizar fragmentos de código es un reto habitual para los desarrolladores. SnipHub permite crear, organizar, compartir y buscar snippets de forma eficiente, con integración de IA para generar explicaciones automáticas del código. Proyecto de fin de grado donde implementé autenticación, API REST completa, testing con Jest y una arquitectura fullstack desde cero.',
           tech: ['Angular', 'Express', 'Node.js', 'MySQL', 'Postman', 'Jest'],
           github: 'https://github.com/aitor191/sniphub',
           demo: '',
@@ -89,7 +89,7 @@ export const translations = {
         {
           id: 'traderbot',
           title: 'TraderBot - Plataforma de trading algorítmico',
-          description: 'Plataforma de trading algorítmico con backtesting, indicadores técnicos y conexión a Binance.',
+          description: 'El trading manual requiere analizar datos constantemente y tomar decisiones rápidas. TraderBot automatiza estrategias de trading con backtesting sobre datos históricos, indicadores técnicos configurables y conexión en tiempo real con Binance. Proyecto donde aprendí a integrar un backend en Python con un frontend moderno en Next.js, contenedorizado con Docker.',
           tech: ['Python', 'FastAPI', 'Next.js', 'TypeScript', 'PostgreSQL', 'Docker'],
           github: 'https://github.com/aitor191/TraderBot',
           demo: '',
@@ -191,12 +191,12 @@ export const translations = {
     projects: {
       title: 'Projects',
       subtitle: 'Here you will find my most outstanding projects. Each one represents a learning opportunity and a chance to apply new technologies.',
-      viewGithub: 'GitHub',
+      viewGithub: 'View on GitHub',
       list: [
         {
           id: 'sniphub',
           title: 'SnipHub - Snippet Manager with AI Integration',
-          description: 'Platform to create, edit, delete and share code snippets with AI integration to generate explanations.',
+          description: 'Managing and reusing code snippets is a common challenge for developers. SnipHub lets you create, organize, share and search snippets efficiently, with AI integration to automatically generate code explanations. Capstone project where I implemented authentication, a complete REST API, testing with Jest and a fullstack architecture from scratch.',
           tech: ['Angular', 'Express', 'Node.js', 'MySQL', 'Postman', 'Jest'],
           github: 'https://github.com/aitor191/sniphub',
           demo: '',
@@ -205,7 +205,7 @@ export const translations = {
         {
           id: 'traderbot',
           title: 'TraderBot - Algorithmic Trading Platform',
-          description: 'Algorithmic trading platform with backtesting, technical indicators and Binance connection.',
+          description: 'Manual trading requires constant data analysis and quick decision-making. TraderBot automates trading strategies with backtesting on historical data, configurable technical indicators and real-time Binance connection. A project where I learned to integrate a Python backend with a modern Next.js frontend, containerized with Docker.',
           tech: ['Python', 'FastAPI', 'Next.js', 'TypeScript', 'PostgreSQL', 'Docker'],
           github: 'https://github.com/aitor191/TraderBot',
           demo: '',
