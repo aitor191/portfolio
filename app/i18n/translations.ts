@@ -85,6 +85,12 @@ export const translations = {
           github: 'https://github.com/aitor191/sniphub',
           demo: '',
           badge: 'TFG',
+          images: [
+            '/projects/sniphub-1.png',
+            '/projects/sniphub-2.png',
+            '/projects/sniphub-3.png',
+            '/projects/sniphub-4.png',
+          ],
         },
         {
           id: 'traderbot',
@@ -94,6 +100,12 @@ export const translations = {
           github: 'https://github.com/aitor191/TraderBot',
           demo: '',
           badge: '',
+          images: [
+            '/projects/traderbot-1.png',
+            '/projects/traderbot-2.png',
+            '/projects/traderbot-3.png',
+            '/projects/traderbot-4.png',
+          ],
         },
       ],
     },
@@ -201,6 +213,12 @@ export const translations = {
           github: 'https://github.com/aitor191/sniphub',
           demo: '',
           badge: 'Capstone Project',
+          images: [
+            '/projects/sniphub-1.png',
+            '/projects/sniphub-2.png',
+            '/projects/sniphub-3.png',
+            '/projects/sniphub-4.png',
+          ],
         },
         {
           id: 'traderbot',
@@ -210,6 +228,12 @@ export const translations = {
           github: 'https://github.com/aitor191/TraderBot',
           demo: '',
           badge: '',
+          images: [
+            '/projects/traderbot-1.png',
+            '/projects/traderbot-2.png',
+            '/projects/traderbot-3.png',
+            '/projects/traderbot-4.png',
+          ],
         },
       ],
     },

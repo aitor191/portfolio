@@ -1314,6 +1314,97 @@ footer p {
   color: var(--color-text-light);
 }
 
+/* Project Carousel */
+.project-carousel {
+  position: relative;
+  margin-bottom: var(--spacing-sm);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--color-bg);
+  border: 1px solid var(--color-border-light);
+}
+
+.project-carousel-inner {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+
+.project-carousel-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.project-carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  opacity: 0;
+  z-index: 2;
+}
+
+.project-carousel:hover .project-carousel-btn {
+  opacity: 1;
+}
+
+.project-carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.75);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.project-carousel-prev {
+  left: 8px;
+}
+
+.project-carousel-next {
+  right: 8px;
+}
+
+.project-carousel-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 6px;
+  z-index: 2;
+}
+
+.project-carousel-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  padding: 0;
+  transition: var(--transition);
+}
+
+.project-carousel-dot.active {
+  background-color: white;
+  transform: scale(1.25);
+}
+
+.project-carousel-dot:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
 /* Project Featured (TFG) Styles */
 .project-featured {
   position: relative;
